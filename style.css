@@ -1,0 +1,899 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 10vh;
+    position: relative;
+    top: 5%;
+}
+
+header ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+    height: 50%;
+    width: 120px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 3.5px;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
+
+header ul a:hover {
+    background-color: rgb(173, 136, 65);
+    color: white;
+    border-radius: 17px 17px 17px 17px;
+}
+
+
+#logo {
+    height: 80px;
+    width: 110px;
+    margin-top: 3px;
+    margin-left: 80px;
+}
+
+#search-icon {
+    height: 20px;
+    width: 20px;
+    margin-top: 16px;
+}
+
+#top {
+    height: 600px;
+    background-image: url(background-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+#text {
+    height: 250px;
+    position: relative;
+    top: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    color: white;
+    font-size: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#booking {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: 5%;
+    font-family: 'Abel', sans-serif;
+    font-size: 23px;
+}
+
+#booking a {
+    text-decoration: none;
+}
+
+#message {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+
+}
+
+#button {
+    height: 40px;
+    width: 150px;
+    padding-top: 3.5px;
+    color: white;
+    border: 3px solid white;
+    /* border-radius: 25px 25px 25px 25px; */
+    position: relative;
+    left: 43%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#button:hover {
+    background-color: rgb(173, 136, 65);
+    color: white;
+}
+
+::selection {
+    background-color: white;
+}
+
+#find-destination {
+    height: 250px;
+    width: 100%;
+    background-image: url(palmistan-blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -400px;
+    border-bottom: 4px solid white;
+}
+
+#fd-title {
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+
+#titles {
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    top: 21%;
+}
+
+#title-1, #title-2, #title-3, #title-4 {
+    position: relative;
+}
+
+#title-1 {
+    left: 3%;
+}
+
+#title-2 {
+    left: 3.3%;
+}
+
+#title-3 {
+    left: 2%;
+}
+
+#title-4 {
+    right: 13%;
+}
+
+#inputs {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 23%;
+}
+
+#destination, #a-types, #min-price, #max-price, #inputs button {
+    margin-left: 10px;
+    font-family: 'Abel', sans-serif;
+    
+    border: 3px solid white;
+}
+
+#destination, #a-types, #min-price, #max-price {
+    padding-left: 9px;
+    font-size: 15px;
+}
+
+#destination {
+    background-color: transparent;
+    height: 50px;
+    width: 300px;
+    color: white;
+}
+
+
+#a-types {
+    background-color: transparent;
+    height: 50px;
+    width: 300px;
+}
+
+#min-price {
+    background-color: transparent;
+    height: 50px;
+    width: 100px;
+}
+
+#max-price {
+    background-color: transparent;
+    height: 50px;
+    width: 100px;
+}
+
+#inputs button {
+    background-color: rgb(173, 136, 65);
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: 0;
+    font-size: 20px;
+}
+
+#top-dests {
+    height: 550px;
+    width: 100%;
+}
+
+#top-dests-title {
+    font-size: 40px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 3%;
+}
+
+#top-dests-subtitle {
+    font-size: 17px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    color: rgb(104, 100, 100);
+    position: relative;
+    top: 2%;
+}
+
+#cards {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 13%;
+}
+
+#paris, #dubrovnik, #athens, #algarve{
+    width: 230px;
+    border: 4px solid rgb(209, 209, 209);
+}
+
+#paris:hover, #dubrovnik:hover, #athens:hover, #algarve:hover {
+    border: 4px solid rgb(173, 136, 65);
+    transition: 0.5s;
+}
+
+#paris, #dubrovnik, #athens {
+    margin-right: 9px;
+}
+
+#paris {
+    background-image: url(paris-3.jpg);
+    background-size: cover;
+    text-decoration: none;
+    transform: skew(-3deg);
+}
+
+#paris:hover {
+
+}
+
+#price-text {
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+    background-color: rgb(173, 136, 65);
+    width: 80px;
+    margin-bottom: 5px;
+    padding-left: 3px;
+}
+
+#place-text {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    background-color: rgb(173, 136, 65);
+    width: 200px;
+    padding-left: 5px;
+}
+
+#price-text, #place-text {
+    position: relative;
+    top: 70%;
+    left: 5%;
+}
+
+#dubrovnik {
+    background-image: url(dubrovnik.jpg);
+    background-size: cover;
+    background-position-y: -80px;
+    text-decoration: none;
+    transform: skew(-3deg);
+}
+
+#price-text-2 {
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+    background-color: rgb(173, 136, 65);
+    width: 80px;
+    margin-bottom: 5px;
+    padding-left: 3px;
+}
+
+#place-text-2 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    background-color: rgb(173, 136, 65);
+    width: 200px;
+    padding-left: 5px;
+}
+
+#price-text-2, #place-text-2 {
+    position: relative;
+    top: 60%;
+    left: 5%;
+}
+
+#athens {
+    background-image: url(athens.jpg);
+    background-size: cover;
+    text-decoration: none;
+    transform: skew(-3deg);
+}
+
+#price-text-3 {
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+    background-color: rgb(173, 136, 65);
+    width: 80px;
+    margin-bottom: 5px;
+    padding-left: 3px;
+}
+
+#place-text-3 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    background-color: rgb(173, 136, 65);
+    width: 200px;
+    padding-left: 5px;
+}
+
+#price-text-3, #place-text-3 {
+    position: relative;
+    top: 60%;
+    left: 5%;
+}
+
+#algarve {
+    background-image: url(algarve.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    transform: skew(-3deg);
+}
+
+#offers {
+    height: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+    background-image: url(palmistan-blue.jpg);
+    background-size: cover;
+}
+
+#first-offer, #second-offer {
+    position: relative;
+    top: 8%;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Abel', sans-serif;
+
+}
+
+#first-offer {
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    border: 6px solid rgb(255, 255, 255);
+    margin-right: 100px;
+    border-radius: 200px 200px 200px 200px;
+    background-image: url(maldives.jpg);
+    background-size: cover;
+    background-position-y: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#second-offer {
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 200px 200px 200px 200px;
+    background-image: url(france.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+
+}
+
+#fo-p1 {
+    font-size: 30px;
+    position: relative;
+}
+
+#fo-p2 {
+    font-size: 130px;
+    margin-top: 0px;
+}
+
+#fo-p3 {
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+#first-offer button, #second-offer button {
+    border: 0;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+#first-offer button a, #second-offer button a {
+    text-decoration: none;
+    color: black;
+}
+
+#subscribe {
+    height: 200px;
+    background-image: url(lake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -400px;
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email-address {
+    background-color: transparent;
+    height: 50px;
+    width: 60%;
+    border: 4px solid white;
+    color: white;
+}
+
+#subscribe button {
+    background-color: rgb(173, 136, 65);
+    color: white;
+    height: 50px;
+    width: 130px;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    margin-left: 20px;
+}
+
+footer {
+    height: 200px;
+    background-image: url(footer-2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid white;
+}
+
+#part1 {
+    height: 180px;
+    width: 45%;
+    display: flex;
+    color: white;
+    border-right: 1px solid white;
+}
+
+#part1, #part2 {
+    position: relative;
+    top: 5.5%;
+    font-family: 'Abel', sans-serif;
+    
+    padding-top: 36px;
+}
+
+#part1 img {
+    margin-right: 15px;
+}
+
+#part2 {
+    height: 180px;
+    width: 25%;
+    margin-left: 20px;
+    color: white;
+}
+
+
+#google-maps iframe {
+    height: 180px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    header {
+        height: 300px;
+    }
+
+    #top {
+        height: 500px;
+        background-position-y: 0px;
+    }
+
+    #title {
+        font-size: 25px;
+        height: 40px;
+    }
+
+    #message {
+        font-size: 13px;
+        border: 1px solid black;
+        position: relative;
+        bottom: 40%;
+    }
+
+    #button {
+        height: 20px;
+        width: 100px;
+        font-size: 13px;
+        padding-top: 0px;
+        position: relative;
+        left: 40%;
+        border: 1px solid white;
+    }
+
+    #text {
+        top: -5%;
+    }
+
+    #booking {
+        top: -6%;
+    }
+
+    #logo {
+        height: 30px;
+        width: 50px;
+        position: relative;
+        right: 10%;
+    }
+    header {
+        height: 200px;
+    }
+
+    header ul{
+        position: relative;
+        bottom: 20%;
+        height: 210px;
+        flex-direction: column;
+        margin-left: 60px;
+    }
+
+    #find-destination {
+        background-position-y: 0px;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titles {
+        display: none;
+    }
+
+    #inputs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #destination, #a-types, #min-price, #max-price, #inputs button {
+        margin-top: 10px;
+    }
+
+    #destination, #a-types {
+        width: 200px;
+    }
+
+    #top-dests {
+        height: 1800px;
+        width: 100%;
+    }
+
+    #top-dests-subtitle {
+        margin-top: 30px;
+    }
+
+    #cards {
+        height: 1500px;
+        flex-direction: column;
+        top: 70px;
+        justify-content: center;
+    }
+    #paris, #dubrovnik, #athens, #algarve{
+        height: 800px;
+        width: 230px;
+        border: 4px solid rgb(209, 209, 209);
+        margin-left: 70px;
+        transform: skew(0deg);
+        margin-top: 10px;
+    }
+    
+    #offers {
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        border: 1px solid red;
+    }
+
+    #first-offer, #second-offer {
+        position: relative;
+        border-radius: 150px 150px 150px 150px;
+        font-family: 'Abel', sans-serif;
+        height: 300px;
+        width: 300px;
+        margin-left: 36px;
+    }
+
+    #first-offer {
+        margin-bottom: 100px;
+    }
+
+    #second-offer {
+        margin-bottom: 120px;
+    }
+
+    #fo-p1 {
+        font-size: 20px;
+        position: relative;
+    }
+    
+    #fo-p2 {
+        font-size: 80px;
+        margin-top: 0px;
+    }
+    
+    #fo-p3 {
+        font-size: 30px;
+    }
+
+    #subscribe {
+        background-position-y: 0px;
+    }
+
+    #email-address {
+        width: 200px;
+    }
+
+    #subscribe button {
+        width: 100px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 650px;
+    }
+
+    #part1{
+        height: 300px;
+        width: 300px;
+        display: flex;
+        border-right: 0;
+    }
+
+    #part2 {
+        margin-left: 146px;
+        margin-bottom: 40px;
+    }
+
+    #google-maps iframe {
+        margin-left: 146px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+    header {
+        height: 300px;
+    }
+
+    #top {
+        height: 500px;
+        background-position-y: 0px;
+    }
+
+    #title {
+        font-size: 25px;
+        height: 40px;
+    }
+
+    #message {
+        font-size: 13px;
+        border: 1px solid black;
+        position: relative;
+        bottom: 40%;
+    }
+
+    #button {
+        height: 20px;
+        width: 100px;
+        font-size: 13px;
+        padding-top: 0px;
+        position: relative;
+        left: 43%;
+        border: 1px solid white;
+    }
+
+    #text {
+        top: -5%;
+    }
+
+    #booking {
+        top: -6%;
+    }
+
+    #logo {
+        height: 30px;
+        width: 50px;
+        position: relative;
+        right: 10%;
+    }
+    header {
+        height: 200px;
+    }
+
+    header ul{
+        position: relative;
+        bottom: 20%;
+        height: 210px;
+        margin-left: 60px;
+    }
+
+    #find-destination {
+        background-position-y: 0px;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titles {
+        display: none;
+    }
+
+    #inputs {
+        display: flex;
+    }
+
+    #destination, #a-types, #min-price, #max-price, #inputs button {
+        margin-top: 10px;
+    }
+
+    #destination, #a-types {
+        width: 200px;
+    }
+
+    #top-dests {
+        height: 1800px;
+        width: 100%;
+    }
+
+    #top-dests-subtitle {
+        margin-top: 30px;
+    }
+
+    #cards {
+        height: 1500px;
+        flex-direction: column;
+        top: 70px;
+        justify-content: center;
+    }
+    #paris, #dubrovnik, #athens, #algarve{
+        height: 800px;
+        width: 80%;
+        border: 4px solid rgb(209, 209, 209);
+        margin-left: 70px;
+        transform: skew(0deg);
+        margin-top: 10px;
+    }
+    
+    
+    #offers {
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        border: 1px solid red;
+    }
+
+    #first-offer, #second-offer {
+        position: relative;
+        border-radius: 150px 150px 150px 150px;
+        font-family: 'Abel', sans-serif;
+        height: 300px;
+        width: 300px;
+        left: 30%;
+    }
+
+    #first-offer {
+        margin-bottom: 100px;
+    }
+
+    #second-offer {
+        margin-bottom: 120px;
+    }
+
+    #fo-p1 {
+        font-size: 20px;
+        position: relative;
+    }
+    
+    #fo-p2 {
+        font-size: 80px;
+        margin-top: 0px;
+    }
+    
+    #fo-p3 {
+        font-size: 30px;
+    }
+
+    #subscribe {
+        background-position-y: 0px;
+    }
+
+    #email-address {
+        width: 200px;
+    }
+
+    #subscribe button {
+        width: 100px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 650px;
+    }
+
+    #part1{
+        height: 300px;
+        width: 300px;
+        display: flex;
+        border-right: 0;
+        position: relative;
+        left: 20%;
+    }
+
+    #part2 {
+        margin-left: 146px;
+        margin-bottom: 40px;
+        position: relative;
+        left: 20%;
+    }
+
+    #google-maps iframe {
+        margin-left: 146px;
+        position: relative;
+        left: 20%;
+    }
+  }
